@@ -1,6 +1,6 @@
 
 import grant, {GrantConfig} from 'grant'
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 const handler = grant.aws({

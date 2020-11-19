@@ -22,11 +22,16 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "fastify": "^3.8.0",
+    "fastify-cookie": "^4.1.0",
+    "fastify-qs": "^3.0.0",
     "fastify-session": "^5.2.1",
     "grant": "^5.4.6",
     "hapi": "^17.8.5",
     "koa": "^2.13.0",
     "koa-session": "^6.1.0",
     "yar": "^9.1.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
   }
 }
