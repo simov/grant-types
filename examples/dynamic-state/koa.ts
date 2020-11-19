@@ -4,7 +4,7 @@ import session from 'koa-session'
 
 import grant, {GrantConfig, GrantSession, GrantProvider} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 const app = new koa()

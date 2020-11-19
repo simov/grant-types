@@ -4,7 +4,7 @@ import session from 'yar'
 
 import grant, {GrantConfig, GrantSession} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 const app = new hapi.Server({host: 'localhost', port: 3000})

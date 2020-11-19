@@ -4,7 +4,7 @@ import session from 'yar'
 
 import grant, {GrantConfig, GrantResponse} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 interface HapiState extends PluginsStates {grant: {response?: GrantResponse}}

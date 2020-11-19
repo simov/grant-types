@@ -4,7 +4,7 @@ import session, {Session} from 'express-session'
 
 import grant, {GrantConfig, GrantSession} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 interface ExpressSession extends Session {grant: GrantSession}

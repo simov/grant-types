@@ -5,7 +5,7 @@ import cookie from 'fastify-cookie'
 
 import grant, {GrantConfig, GrantSession, GrantProvider} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 interface Request extends FastifyRequest {

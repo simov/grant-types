@@ -5,7 +5,7 @@ import qs from 'qs'
 
 import grant, {GrantConfig, GrantResponse} from 'grant'
 
-import json from '../config.json'
+import json from './config.json'
 const config: GrantConfig = json
 
 const app = new hapi.Server({host: 'localhost', port: 3000})
